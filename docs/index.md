@@ -1,5 +1,7 @@
 # External
 
+v-002
+
 ---
 <ul>
   {% for post in site.posts %}
@@ -8,3 +10,6 @@
     </li>
   {% endfor %}
 </ul>
+
+---
+{{ site.pages }}
